@@ -1,0 +1,156 @@
+
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  margin-left: -290px;
+  margin-top: -190px;
+  border-radius: 10px;
+  background: #f3f3f3;
+}
+.text-container {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-left: 300px;
+  margin-right: 40px;
+}
+
+.img-desktop {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px 0 0 10px;
+}
+
+.perfume {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: initial;
+  padding-left: 25px;
+  padding-top: 25px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+
+.creator {
+  font-family: Fraunces;
+  text-align: initial;
+  padding-left: 25px;
+  margin-top: 3px;
+  line-height: 30px;
+}
+
+.description {
+  font-family: Montserrat;
+  display: flex;
+  justify-content: initial;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-top: -20px;
+  margin-right: 30px;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.pound {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+  margin-top: -15px;
+}
+
+.discount-price {
+  font-family: Fraunces;
+  color: rgb(35, 128, 104);
+  font-size: 27px;
+}
+
+.price {
+  font-family: Montserrat;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  padding: 16px;
+}
+
+.button {
+  font-family: Montserrat;
+  background-color: rgb(35, 128, 104);
+  color: hsl(0, 0%, 100%);
+  margin-left: 25px;
+  margin-right: 0px;
+  padding: 10px  20px 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  
+}
+.button:hover {
+  background-color: rgb(8, 61, 29);
+}
+
+ button .car {
+   size: 10px;
+ }
+
+@media (max-width: 375px)   {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: -350px;
+    margin-left: -175px;
+    height: 680px;
+    width: 350px;
+    align-content: center;
+    border-radius: 10px ;
+  
+  }
+    
+}
+
+@media (max-width:  375px)   {
+  .text-container {
+   display: flex;
+   flex-direction:column ;
+   margin-top: 250px;
+   margin-left: 125px;
+   margin-right: -2px;
+   margin-left: -10px;
+  }
+}
+
+@media (max-width:  375px)   {
+  .img-desktop{
+    height: 300px;
+    width: 352px;
+    margin-left: -1px;
+    margin-top: -377px;
+    border-radius: 10px 10px 0 0;
+  };
+    
+}
+
+@media (max-width:  375px)   {
+  .button {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 70px;
+  }
+    
+}
+ 
+
+
